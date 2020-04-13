@@ -7,10 +7,15 @@ Authors@R:
            role = c("aut", "cre"),
            email = "kane.maxwell@outlook.com",
            comment = c(ORCID = "0000-0002-1964-5277"))
-Description: Package provides R code to implement geographic quantile regression forest for spatial interpolation  
+Description: Package provides R code to implement geographic quantile regression forest for spatial interpolation.  
 License: GPL-3
 Suggests: 
     testthat
+Imports:
+    data.table,
+    nabor,
+    ranger,
+    sp
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

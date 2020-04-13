@@ -7,3 +7,6 @@
 ^project\.Rcheck$
 ^project.*\.tar\.gz$
 ^project.*\.tgz$
+^gqrf\.Rcheck$
+^gqrf.*\.tar\.gz$
+^gqrf.*\.tgz$

@@ -9,3 +9,6 @@ project.Rcheck/
 project*.tar.gz
 project*.tgz
 usethis_muck.R
+gqrf.Rcheck/
+gqrf*.tar.gz
+gqrf*.tgz

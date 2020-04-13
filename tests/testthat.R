@@ -1,4 +1,4 @@
 library(testthat)
-library(project)
+library(gqrf)
 
-test_check("project")
+test_check("gqrf")
