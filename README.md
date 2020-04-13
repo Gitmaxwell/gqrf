@@ -11,7 +11,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/project)](https://CRAN.R-project.org/package=project)
 <!-- badges: end -->
 
-The goal of project is to …
+Geographic quantile regression forest (gqrf) is a new method for spatial
+interpolation.
 
 ## Installation
 

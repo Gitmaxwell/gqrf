@@ -8,3 +8,4 @@ Install_Packages.R
 project.Rcheck/
 project*.tar.gz
 project*.tgz
+usethis_muck.R
