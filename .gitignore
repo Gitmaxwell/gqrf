@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+unt.Rmd
+unt.pdf
+Install_Packages.R
+project.Rcheck/
+project*.tar.gz
+project*.tgz
