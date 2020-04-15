@@ -11,6 +11,7 @@
 #' Uses geographic quantile regression forest (Maxwell, 2020) for spatially interpolating values at new, unknown locations.
 #' @export
 #' @import data.table
+#' @return A data frame consisting of x (x coordinate), y (y coordinate), target (the target variable), covars (covariates/auxilary data), pred (the predicted value) and var (the variance at the chosen quantiles)
 #' @references
 #' * Maxwell, K., Rajabi, M., Esterle, J. (2020). Spatial interpolation of coal geochemical properties using geographic quantile regression forest. Manuscript submitted for publication.
 #'
@@ -45,7 +46,7 @@ gqrf = function(formula,data,newdata,k=NULL,ntree=500,mtry=NULL,quantiles = c(0.
     test$var = pred_df$var
     test$target = target
     test$covars = paste(covars,collapse = " , ")
-    test = test[,c("target","covars","pred","var")]
+    test = test[,c("x", "y","target","covars","pred","var")]
   }
   l=  lapply(1:nrow(newdata),  get_nnn_rf)
   r =data.table::rbindlist(l)

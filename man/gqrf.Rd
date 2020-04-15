@@ -29,6 +29,9 @@ gqrf(
 
 \item{quantiles}{Vector of the upper, lower and middle quantiles. Default is c(0.05,0.5,0.95)}
 }
+\value{
+A data frame consisting of x (x coordinate), y (y coordinate), target (the target variable), covars (covariates/auxilary data), pred (the predicted value) and var (the variance at the chosen quantiles)
+}
 \description{
 Predict values at unknown locations using geographic quantile regression forest
 }
