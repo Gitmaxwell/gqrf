@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/project)](https://CRAN.R-project.org/package=project)
+[![CRAN status](https://www.r-pkg.org/badges/version/gqrf)](https://CRAN.R-project.org/package=gqrf)
 <!-- badges: end -->
 
 Geographic quantile regression forest (gqrf) is a new method for spatial interpolation. 
@@ -43,13 +43,9 @@ This is a basic example which shows you how to solve a common problem:
 ```{r example}
 #library(gqrf)
 ## basic example code
+
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
 

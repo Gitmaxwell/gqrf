@@ -10,6 +10,7 @@
 #' @details
 #' Uses geographic quantile regression forest (Maxwell, 2020) for spatially interpolating values at new, unknown locations.
 #' @export
+#' @import data.table
 #' @references
 #' * Maxwell, K., Rajabi, M., Esterle, J. (2020). Spatial interpolation of coal geochemical properties using geographic quantile regression forest. Manuscript submitted for publication.
 #'
