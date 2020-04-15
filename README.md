@@ -8,7 +8,7 @@
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN
-status](https://www.r-pkg.org/badges/version/project)](https://CRAN.R-project.org/package=project)
+status](https://www.r-pkg.org/badges/version/gqrf)](https://CRAN.R-project.org/package=gqrf)
 <!-- badges: end -->
 
 Geographic quantile regression forest (gqrf) is a new method for spatial
@@ -20,7 +20,7 @@ You can install the released version of project from
 [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-#install.packages("project")
+#install.packages("gqrf")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
