@@ -11,8 +11,9 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://www.r-pkg.org/badges/version/gqrf)](https://CRAN.R-project.org/package=gqrf)
 <!-- badges: end -->
 
-Geographic quantile regression forest (gqrf) is a new method for spatial
-interpolation.
+‘gqrf’ is an R package for implementing geographic quantile regression
+forest method for spatial interpolation as described in Maxwell et al,
+(2020).
 
 ## Installation
 
@@ -39,12 +40,8 @@ This is a basic example which shows you how to solve a common problem:
 ## basic example code
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
+## References
 
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
+Maxwell, K., Rajabi, M., Esterle, J. (2020). Spatial interpolation of
+coal geochemical properties using geographic quantile regression forest.
+Manuscript submitted for publication.
