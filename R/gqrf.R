@@ -31,6 +31,7 @@ gqrf = function(formula,data,newdata,k=NULL,ntree=500,mtry=NULL,quantiles = c(0.
   get_nnn_rf = function(x) {
     train = data
     test = newdata[x,]
+    test_coords <- data.frame(test@coords)
     nn1 <- nabor::knn(sp::coordinates(train),sp::coordinates(test),k)
     traindt = data.table::setDT(as.data.frame(train))
     trainnn = traindt[nn1$nn.idx[1,]]
@@ -46,7 +47,9 @@ gqrf = function(formula,data,newdata,k=NULL,ntree=500,mtry=NULL,quantiles = c(0.
     test$var = pred_df$var
     test$target = target
     test$covars = paste(covars,collapse = " , ")
-    test = test[,c("x", "y","target","covars","pred","var")]
+    test = test[, c("target",
+                    "covars", "pred", "var")]
+    test = cbind(test, test_coords)
   }
   l=  lapply(1:nrow(newdata),  get_nnn_rf)
   r =data.table::rbindlist(l)
