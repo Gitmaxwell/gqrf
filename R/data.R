@@ -3,9 +3,9 @@
 #' A dataset containing coal geochemical analysis and associated auxiliary information
 #' coalsp.
 #'
-#' @format A list containing two SpatialPonitsDataFrames
+#' @format A list containing two SpatialPointsDataFrames
 #' \describe{
-#'   \item{train}{Training Data, locations of coal analysis and auxilary data}
+#'   \item{train}{Training Data, locations of coal analysis and auxiliary data}
 #'   \item{newdata}{New data locations with auxilary data}
 #'   ...
 #' }
